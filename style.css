@@ -1,0 +1,501 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-900 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+  margin:0;
+  height:100%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+      }
+    
+p{
+    margin: 0 0 5px;
+}
+      
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+  
+    }
+    
+
+ .logo{
+    position: absolute;
+    left:240px;
+    top:22px;
+ }   
+
+.nav-list{
+    position: absolute;
+    left: 662px;
+    top: 41px;
+    list-style: none;
+    display: flex;
+justify-content: center;
+
+}
+
+.nav-link{
+    margin-right:  35px;
+    text-decoration: none;
+font-family: 'Poppins';
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+text-transform: uppercase;
+color: white;
+ 
+}
+
+.lang{
+    position: absolute;
+    left: 1391px;
+top: 41px;
+display: flex;
+justify-content: flex-end;
+list-style: none;
+
+}
+
+.nav-lang{
+    margin-right: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.intro{
+    height: 100vh;    
+}
+.header{
+background: url(./img/car.jpg) no-repeat center  ;
+background-size: cover;
+max-height: 750px;
+}
+
+.intro-title{
+display: flex;
+align-items: center;
+font-family: 'Poppins';
+font-size: 48px;
+font-weight: 600;
+line-height: 72px;
+color: rgba(255, 255, 255, 1);
+position: absolute;
+left: 240px;
+top: 217px;
+}
+
+.search{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.search-button{
+    position: absolute;
+left: 240px;
+top: 395px;
+max-width: 198px;
+padding:11px 49px;
+font-family: 'Poppins';
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+background-color: red;
+color: white;
+border:0;
+}
+
+.search-button:hover, .search-button:focus{
+    color: rgb(129, 27, 27);
+}
+
+.phone{
+max-height: 30px;
+max-width: 30px;
+
+
+
+}
+
+.info{
+    transform: translateY(-50%);
+}
+.wrapper{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.block{
+    width: 34%;
+    padding: 0 10px;
+}
+
+.info-item{
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+
+}
+
+.info-img{
+    height: 30px;
+padding-bottom: 21px;
+
+}
+
+.info-title{
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.info-text{
+    color: rgba(183, 183, 183, 1);
+}
+
+
+
+.block-title{
+    margin-bottom: 15px;
+    font-size: 30px;
+
+    color: #000;
+}
+
+.block-link{
+    display: inline-block;
+    margin-bottom: 60px;
+    color: #000;
+    text-decoration: none;
+}
+
+.block-link:hover{
+    text-decoration: none;
+}
+
+.service-wrapper{
+    display: flex;
+    margin: 0 -10px;
+}
+
+.service-block{
+    width: 34%;
+    padding: 0 10px;
+}
+
+.services-item:hover .services-content-item{
+    opacity: 0.6;
+}
+
+.services-item:hover .services-content:after{
+    opacity: 0.6;
+}
+
+.services-content{
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+ 
+    background-size: cover;
+    position: relative;
+}
+
+.services-title{
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0.23em;
+margin-bottom: 120px;
+
+}
+
+.services-content::after{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+}
+
+.services-img{
+    width: 100px;
+    height: 100px;
+    border-radius:50% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #DB2512;
+    position: absolute;
+    top: 50%;
+    left: 50%;   
+    transform: translateX(-50px);
+
+}
+
+.services-text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.23em;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 270px;
+}
+
+.services-content-item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+.information{
+    background: url(./img/phone.png) no-repeat center ;
+    background-size: 100%;
+   height: 665px;
+    background-size: cover;
+
+    
+ 
+}
+
+.wrapper-pic{
+    position: absolute;
+    width: 513px;
+    height: 342px;
+    
+    top: 1895px;
+    right: 240px;
+}
+
+.information-title{
+    font-family: 'Poppins';
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+color:rgba(255, 255, 255, 1);
+max-width: 490px;
+
+
+
+}
+
+.about-wrapper{
+    max-width: 506px;
+    padding: 117px 0px;
+    
+}
+
+
+
+.information-content{
+    max-width: 500px;
+    font-family: 'Poppins';
+    font-style: normal;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+color: rgba(183, 183, 183, 1);
+padding-top: 42px;
+padding-bottom: 48px;
+letter-spacing: 2.5px;
+height: 180px;
+
+
+
+}
+
+.information-link{
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+color: rgba(255, 255, 255, 1);
+}
+
+.process-title{
+font-size: 148px;
+font-weight: 900;
+text-align: center;
+padding-top: 100px;
+}
+
+.process-text{
+
+font-size: 40px;
+font-weight: 600;
+letter-spacing: 0.15em;
+text-align: center;
+margin-bottom:90px;
+}
+
+
+
+.item{
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    padding: 40px;
+}
+
+.contacts{
+    padding: 100px 0;
+    background-color: #000;
+}
+
+.block-title{
+    color: #fff;
+    font-family: Poppins;
+font-size: 30px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0.15em;
+
+
+}
+
+.contacts-form{
+    max-width: 440px;
+}
+
+.form-row{
+    margin: 0 -20px;
+    display: flex;
+}
+
+.form-group{
+    padding: 0 20px;
+    flex: 1;
+    position: relative;
+}
+
+.input{
+    width: 100%;
+    padding: 9px 0;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+
+.label{
+    letter-spacing: 0.15em;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.15em;
+
+}
+
+.textarea{
+    width: 100%;
+    padding: 9px 0;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    min-height: 130px;
+}
+
+.button{
+    min-width: 200px;
+    height: 50px;
+    padding:0 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #DB2512;
+    border: 0;
+    margin-top: 48px;
+}
+
+.footer-wrapper{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright{
+    letter-spacing: 0.15em;
+}
+
+.footer-soc{
+    display: flex;
+}
+
+.soc-link{
+    margin-right: 20px;
+    text-decoration: none;
+}
